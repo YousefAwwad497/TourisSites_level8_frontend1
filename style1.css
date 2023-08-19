@@ -1,0 +1,168 @@
+.flex{
+    display: flex; 
+    flex-wrap:wrap;
+    background-color: chartreuse;
+}
+
+.flex div{
+    width: 100px;
+    margin: 10px;
+    border: solid ;
+    text-align: center;
+    flex-direction:column ;
+    line-height: 75px;
+    background-color: aqua;
+}
+
+nav{
+    background-color:#7c9086;
+    float: center;
+    max-width: 100%;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: sticky;
+    opacity: 0.9;
+    padding: 0 0;
+    text-align: center;
+    border-radius: 10px 10px;
+    height: 80px;
+}
+a{
+    background-color: #7c9086;
+}
+body{
+    background-color: #ECE5D1;
+}
+h2{
+   background-color: #7c9086;
+}
+nav a {
+    display: inline-block;
+    color: #d2e2e2;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+}
+nav a:hover {
+    background-color:#ECE5D1;
+    color: black;
+    border-radius: 10px 100px;
+}
+
+    nav ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+    }
+
+    nav li{
+        display: inline-block;
+        padding: 10px;
+        font-size: 1.3em;
+    }
+ul{
+    font-size: 25px;
+}
+#img{
+    size: 25px;
+}
+#About_us{
+    grid-area: box1;
+    background-color: black;
+    border-color: #3F7C88;
+    color: white;
+}
+
+#Contact{
+    grid-area: box2;
+    background-color: black;
+    border-color: #3F7C88;
+    color: white;
+}
+
+#Follow_us{
+grid-area: box3;
+background-color: black;
+border-color: #3F7C88;
+color: white;
+}
+
+#Follow_us img{
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+}
+#End{
+    height: 8vh;
+    grid-area: box4;
+    background-color: #7c9086;
+    border-color: #A5DBDC;
+    color: white;
+}
+
+#grids_footer h2{
+    color: white;
+}
+
+#grids_footer p{
+    font-size: 20px;
+}
+.card-img-top{
+	height: 300px;
+	width: 300px;
+	border-radius: 10px 10px;
+	}
+
+	h1{
+		color: #3F7C88;
+	}
+
+	#divs h2{
+		color: #3F7C88;
+	}
+
+	#divs li{
+		font-size: 20px;
+	}
+
+	#login label{
+		font-size: 20px ;
+		color: black ;
+	}
+
+	#login input{
+		border-radius: 10px 10px;
+		border: #3F7C88 solid;
+		height: 25px;
+		width: 300px;
+		font-size: 20px;
+	}
+
+	#login button{
+		border-radius: 10px 10px;
+		border: #7c9086 solid;	
+		height: 40px;
+		width: 150px;
+		font-size: 20px;
+		background-color: #7c9086;
+		color: #d2e2e2;
+	}
+
+	#img{
+		border-radius: 10px 10px;	
+	}
+
+		#grids_footer{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		  width:100% ;
+		  grid-template-areas: 
+	    "box1 box2 box2 box3"
+	    "box4 box4 box4 box4" ;
+		}
+		nav a:hover {
+            background-color:#A5DBDC;
+            color: black;
+            border-radius: 10px 100px;
+            }
